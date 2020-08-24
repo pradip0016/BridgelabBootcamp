@@ -1,0 +1,169 @@
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp
+$ ls -l
+total 12
+drwxr-xr-x 1 DELL PC 197121 0 Jul 29 19:29 Day5/
+drwxr-xr-x 1 DELL PC 197121 0 Jul 30 15:44 Day6/
+drwxr-xr-x 1 DELL PC 197121 0 Jul 30 19:51 Day7/
+drwxr-xr-x 1 DELL PC 197121 0 Jul 31 19:11 Day8/
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp
+$ git init
+Initialized empty Git repository in C:/Users/DELL PC/Terminalcommand/Bootcamp/.git/
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git add .
+warning: LF will be replaced by CRLF in Day5/Add.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/case_demo.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/demo_random.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/empsalary.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/empsalary2.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/modified.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day5/updcp.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/empWageForloop.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/empWageWhile.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/empwagefunc.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/froLoopTest.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/functiondemo.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day6/whiletest.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day7/3.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day7/Arrayfirst.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day7/Arraysecond2.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day7/Arraysecondemp.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day8/dicedictionary.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day8/dictionarytest.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Day8/forloop5.sh.
+The file will have its original line endings in your working directory
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git commit -m "file uploaded"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DELL PC@DESKTOP-N97U9Q0.(none)')
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git config -global.email "patilpradip980@gmail.com"
+error: unknown switch `g'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git config -global user.email "patilpradip980@gmail.com"
+error: did you mean `--global` (with two dashes)?
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git config --global user.email "patilpradip980@gmail.com"
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git config --global user.name "pradip0016"
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git commit -m "Bootcamp program"
+[master (root-commit) 085f2a4] Bootcamp program
+ 20 files changed, 406 insertions(+)
+ create mode 100644 Day5/Add.sh
+ create mode 100644 Day5/case_demo.sh
+ create mode 100644 Day5/demo_random.sh
+ create mode 100644 Day5/empsalary.sh
+ create mode 100644 Day5/empsalary2.sh
+ create mode 100644 Day5/modified.sh
+ create mode 100644 Day5/updcp.sh
+ create mode 100644 Day6/empWageForloop.sh
+ create mode 100644 Day6/empWageWhile.sh
+ create mode 100644 Day6/empwagefunc.sh
+ create mode 100644 Day6/froLoopTest.sh
+ create mode 100644 Day6/functiondemo.sh
+ create mode 100644 Day6/whiletest.sh
+ create mode 100644 Day7/3
+ create mode 100644 Day7/Arrayfirst.sh
+ create mode 100644 Day7/Arraysecond2.sh
+ create mode 100644 Day7/Arraysecondemp.sh
+ create mode 100644 Day8/dicedictionary.sh
+ create mode 100644 Day8/dictionarytest.sh
+ create mode 100644 Day8/forloop5.sh
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git remote add origin https://github.com/pradip0016/Bridgelabcodeinclub.git
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$ git push -u origin master
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (26/26), 4.40 KiB | 225.00 KiB/s, done.
+Total 26 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/pradip0016/Bridgelabcodeinclub.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+DELL PC@DESKTOP-N97U9Q0 MINGW64 ~/Terminalcommand/Bootcamp (master)
+$
